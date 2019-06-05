@@ -22,12 +22,12 @@
         </div>
       </div>
       <div class="s-nav">
-        <router-link to="/BindingPhone">
+        <router-link to="/MakeAppointment">
           <img src="/static/images/shouye/yuyue.png" alt="">
           <span>预约</span>
         </router-link>
         <a href="#">
-          <img src="/static/images/shouye/daohang.png" alt="">
+          <img src="/static/images/shouye/dingwei.png" alt="">
           <span>导航</span>
         </a>
         <a href="#">

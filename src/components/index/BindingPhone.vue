@@ -61,6 +61,7 @@
   .xieYi{
     padding-left: .1rem;
     display: flex;
+    margin-top: .1rem;
   }
 .xieYi span{
   width: .15rem;
@@ -75,7 +76,7 @@
  .xieYi .active{
   background: url("../../../static/images/shouye/xuanzhong@2x.png") no-repeat center;
   background-size:.15rem ;
-  border:.5px solid #30C27B ;
+  border:.5px solid #F7F8FA ;
 }
 
   .btn{

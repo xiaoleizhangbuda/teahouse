@@ -4,16 +4,20 @@ body,html,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,input,select,textarea,td{
   padding:0;
 }
 body{
-  font-family:"宋体";
+  font-family:"PingFang-SC-Medium";
+  background: #F7F8FA;
 }
 html{
   font-size: 26.67vw;
 }
 body{
-  font-size: 14px;
+  font-size: .14rem;
 }
 html,body{
   height: 100%;
+}
+em{
+  font-style: normal;
 }
 a{
   text-decoration:none;
