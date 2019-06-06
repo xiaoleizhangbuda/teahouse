@@ -13,10 +13,10 @@
           <img src="/static/images/my/huiyuan.png" alt="">
           <span>会员</span>
         </a>
-        <a href="">
+        <router-link to="/MyOrder">
           <img src="/static/images/my/dingdan.png" alt="">
           <span>订单</span>
-        </a>
+        </router-link>
         <a href="">
           <img src="/static/images/my/yajin.png" alt="">
           <span>押金</span>
@@ -48,9 +48,9 @@
       </li>
       <li>
         <span>关于我们</span>
-        <a href="">
+        <router-link to="/AboutUs">
           <img src="/static/images/my/jiantou.png" alt="">
-        </a>
+        </router-link>
       </li>
     </ul>
   </div>

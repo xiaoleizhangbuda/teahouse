@@ -8,7 +8,10 @@ import TeaArtist from "../components/index/TeaArtist"
 import MakeAppointment from "../components/index/MakeAppointment"
 import my from "../components/my/my"
 import Shopping from "../components/shopping/Shopping";
+import AboutUs from "../components/my/AboutUs"
 import Agreement from "../components/my/Agreement"
+import MyOrder from "../components/my/MyOrder"
+import NoOrder from "../components/my/NoOrder"
 Vue.use(Router)
 
 export default new Router({
@@ -56,10 +59,27 @@ export default new Router({
         name:TeaArtist,
         component:TeaArtist
       },
-    {
-      path:"/Agreement",
-      name:Agreement,
-      component:Agreement
-    }
+      {
+        path:"/Agreement",
+        name:Agreement,
+        component:Agreement
+      },
+      {
+        path:"/AboutUs",
+        name:AboutUs,
+        component:AboutUs
+      },
+      {
+        path:"/MyOrder",
+        name:MyOrder,
+        component:MyOrder,
+        children: [
+          {
+            path:"",
+            name:NoOrder,
+            component:NoOrder
+          }
+        ]
+      }
   ]
 })
