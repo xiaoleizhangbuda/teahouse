@@ -8,6 +8,7 @@ import TeaArtist from "../components/index/TeaArtist"
 import MakeAppointment from "../components/index/MakeAppointment"
 import my from "../components/my/my"
 import Shopping from "../components/shopping/Shopping";
+import Agreement from "../components/my/Agreement"
 Vue.use(Router)
 
 export default new Router({
@@ -54,6 +55,11 @@ export default new Router({
         path:"/TeaArtist",
         name:TeaArtist,
         component:TeaArtist
-      }
+      },
+    {
+      path:"/Agreement",
+      name:Agreement,
+      component:Agreement
+    }
   ]
 })

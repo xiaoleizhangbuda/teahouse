@@ -30,6 +30,8 @@
 .index-footer{
   display: flex;
   height: .5rem;
+  background: #fff;
+  padding-top: .05rem;
 }
 .index-footer a{
   width: 33.33%;
