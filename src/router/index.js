@@ -12,6 +12,7 @@ import AboutUs from "../components/my/AboutUs"
 import Agreement from "../components/my/Agreement"
 import MyOrder from "../components/my/MyOrder"
 import NoOrder from "../components/my/NoOrder"
+import CompleteOrder from "../components/my/CompleteOrder"
 Vue.use(Router)
 
 export default new Router({
@@ -78,6 +79,11 @@ export default new Router({
             path:"",
             name:NoOrder,
             component:NoOrder
+          },
+          {
+            path:"/CompleteOrder",
+            name:CompleteOrder,
+            component:CompleteOrder
           }
         ]
       }

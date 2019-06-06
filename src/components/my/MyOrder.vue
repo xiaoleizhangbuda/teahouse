@@ -2,7 +2,7 @@
     <div>
       <header>
         <router-link to="">未完成</router-link>
-        <router-link to="/">已完成</router-link>
+        <router-link to="/CompleteOrder">已完成</router-link>
       </header>
       <router-view/>
     </div>
