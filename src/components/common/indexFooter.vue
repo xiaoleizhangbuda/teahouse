@@ -1,17 +1,17 @@
 <template>
     <div class="index-footer">
-        <a href="">
+        <router-link to="/">
             <img src="/static/images/shouye/shouye_xuanzhong.png" alt="">
             <span>茶馆</span>
-        </a>
-        <a href="">
+        </router-link>
+        <router-link to="/Shopping">
           <img src="/static/images/shouye/shangcheng_weixuanhzong.png" alt="">
           <span>商城</span>
-        </a>
-        <a href="">
+        </router-link>
+        <router-link to="/my">
           <img src="/static/images/shouye/wode_weixuanhzong.png" alt="">
           <span>我的</span>
-        </a>
+        </router-link>
     </div>
 </template>
 

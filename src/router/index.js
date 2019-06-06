@@ -6,6 +6,8 @@ import ShopList from "../components/index/ShopList"
 import MailInvoice from "../components/index/MailInvoice"
 import TeaArtist from "../components/index/TeaArtist"
 import MakeAppointment from "../components/index/MakeAppointment"
+import my from "../components/my/my"
+import Shopping from "../components/shopping/Shopping";
 Vue.use(Router)
 
 export default new Router({
@@ -20,6 +22,16 @@ export default new Router({
                   path: "",
                   name: ShopList,
                   component: ShopList
+              },
+              {
+                path:"/my",
+                name:my,
+                component:my
+              },
+              {
+                path:"/Shopping",
+                name:Shopping,
+                component:Shopping
               }
           ]
       },
